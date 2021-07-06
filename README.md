@@ -1,7 +1,11 @@
 # HCI Gesture Control
+In this work, I designed a gesture recognition Human Computer Interaction (HCI) system based on OpenCV.
+I used the watershed algorithm to realize skin color image segmentation, applied the template matching algorithm to realize gesture recognition, and implemented the gesture interaction function of mouse and keyboard shortcuts based on Win32 API.
 
+## Demo
+[Check this demo video here!](videos/demo.mp4)
 
-
+<img src=images/demo.png width=400/>
 
 ## Reference
 
