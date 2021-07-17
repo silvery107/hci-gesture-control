@@ -4,15 +4,11 @@
 #define WINDOW_NAME "Hci For You"
 #include "gesture.h"
 #include <iostream>
-// using namespace cv;
-// using namespace std;
 extern int ctrlMode;
 extern int mouseMode;
-extern int faceMode;
-extern int capMode;
 int main(void)
 {
-    cv::Mat frame = cv::Mat(600, 500, CV_8UC3);
+    cv::Mat frame = cv::Mat(480, 400, CV_8UC3);
     // Init a OpenCV window and tell cvui to use it.
     cv::namedWindow(WINDOW_NAME);
     cvui::init(WINDOW_NAME);
@@ -20,13 +16,10 @@ int main(void)
     bool choice2 = false;
     bool choice3 = false;
     bool choice4 = false;
-    bool choice5 = false;
-    bool choice6 = false;
-    bool choice7 = false;
     while (true)
     {
         // Fill the frame with a nice color
-        frame = cv::Scalar(43, 183, 179);
+        frame = cv::Scalar(67, 63, 0);
         // Show a button at position (110, 80)
         if (choice1)
         {
@@ -48,22 +41,22 @@ int main(void)
             ctrlMode = 1;
         }
         cvui::checkbox(frame, 30, 130, "trajectory recognition", &choice2);
-        if (cvui::button(frame, 30, 30, "gesture recognition"))
+        if (cvui::button(frame, 30, 30, "gesture recognition",cvui::DEFAULT_FONT_SCALE, 0x2BB7B3))
         {
             gesture();
         }
 
-        cvui::text(frame, 30, 350, "---------shape recognition tips-----------");
-        cvui::text(frame, 30, 370, "Line:      Tab");
-        cvui::text(frame, 30, 390, "L Shape:   Enter");
-        cvui::text(frame, 30, 410, "Circle:    Win + D");
-        cvui::text(frame, 30, 430, "Rectangle: Ctrl + Alt + Tab");
-        cvui::text(frame, 30, 470, "---------traject recognition tips---------");
-        cvui::text(frame, 30, 490, "Event 1: Mouse move");
-        cvui::text(frame, 30, 510, "Event 2: Left click");
-        cvui::text(frame, 30, 530, "Event 4: Double left click");
-        cvui::text(frame, 30, 550, "Event 5: Hold or release the left button");
-        cvui::text(frame, 30, 570, "------------------------------------------");
+        cvui::text(frame, 30, 220, "---------Shape Recognition Tips-----------");
+        cvui::text(frame, 30, 240, "Line:      Tab");
+        cvui::text(frame, 30, 260, "L Shape:   Enter");
+        cvui::text(frame, 30, 280, "Circle:    Win + D");
+        cvui::text(frame, 30, 300, "Rectangle: Ctrl + Alt + Tab");
+        cvui::text(frame, 30, 340, "----------Traject Recognition Tips----------");
+        cvui::text(frame, 30, 360, "Event 1: Mouse move");
+        cvui::text(frame, 30, 380, "Event 2: Left click");
+        cvui::text(frame, 30, 400, "Event 4: Double left click");
+        cvui::text(frame, 30, 420, "Event 5: Hold or release the left button");
+        cvui::text(frame, 30, 440, "--------------------------------");
         cvui::update();
         // Show everything on the screen
         cv::imshow(WINDOW_NAME, frame);

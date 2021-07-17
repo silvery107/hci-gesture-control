@@ -47,11 +47,11 @@ int gesture()
 
 	// load template pictures
 	Mat tmpPic[5];
-	tmpPic[0] = imread("./images/hand1.png", cv::IMREAD_GRAYSCALE);
-	tmpPic[1] = imread("./images/hand2.png", cv::IMREAD_GRAYSCALE);
-	tmpPic[2] = imread("./images/hand3.png", cv::IMREAD_GRAYSCALE);
-	tmpPic[3] = imread("./images/hand4.png", cv::IMREAD_GRAYSCALE);
-	tmpPic[4] = imread("./images/hand5.png", cv::IMREAD_GRAYSCALE);
+	tmpPic[0] = imread("../images/hand1.png", cv::IMREAD_GRAYSCALE);
+	tmpPic[1] = imread("../images/hand2.png", cv::IMREAD_GRAYSCALE);
+	tmpPic[2] = imread("../images/hand3.png", cv::IMREAD_GRAYSCALE);
+	tmpPic[3] = imread("../images/hand4.png", cv::IMREAD_GRAYSCALE);
+	tmpPic[4] = imread("../images/hand5.png", cv::IMREAD_GRAYSCALE);
 
 	std::string textStr;
 	bool clkFlg = true;
@@ -193,7 +193,7 @@ void findRec2(const Mat &srcImg, vector<Rect> &boundRect, int &count)
 	vector<cv::Vec4i> hierarcy;
 	cv::dilate(srcImg, conImg, Mat(), cv::Point(-1, -1), 2);
 	cv::Canny(conImg, conImg, 80, 160);
-	imshow("canny", conImg);
+	// imshow("canny", conImg);
 	cv::findContours(conImg, contours, hierarcy, cv::RETR_EXTERNAL, cv::CHAIN_APPROX_NONE);
 	for (size_t i = 0; i < contours.size(); i++)
 	{
@@ -244,7 +244,7 @@ void getSkinImg(Mat &inputImg, Mat &outputImg)
 				curImg[i] = 0;
 		}
 	}
-	imshow("skin img", binImg);
+	// imshow("skin img", binImg);
 	// watershed algorithm
 	Mat markerImg(binImg.size(), CV_8U, Scalar(0));
 	Mat fg, bg;
@@ -255,7 +255,7 @@ void getSkinImg(Mat &inputImg, Mat &outputImg)
 	markerImg.convertTo(markerImg, CV_32SC1);
 	cv::watershed(inputImg, markerImg);
 	markerImg.convertTo(outputImg, CV_8UC1);
-	imshow("watershed img", outputImg);
+	// imshow("watershed img", outputImg);
 }
 
 bool tmpPicMatch(const Mat *tmpPic, Mat &gesture, int &finger)
