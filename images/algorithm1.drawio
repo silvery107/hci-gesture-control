@@ -1,0 +1,107 @@
+<mxfile>
+    <diagram id="_3mpkpdQchI8VJIq97jN" name="第 1 页">
+        <mxGraphModel dx="825" dy="479" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="1" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="50" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;dashed=1;sketch=0;fontFamily=Times New Roman;fontSize=16;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="130" width="470" height="250" as="geometry"/>
+                </mxCell>
+                <mxCell id="49" value="" style="rounded=1;whiteSpace=wrap;html=1;shadow=0;glass=0;sketch=0;fontFamily=Times New Roman;fontSize=16;fillColor=#dae8fc;dashed=1;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="60" y="20" width="470" height="80" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=14;" edge="1" parent="1" source="7" target="8">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="Skin&lt;br style=&quot;font-size: 16px;&quot;&gt;Detection" style="html=1;dashed=0;whitespace=wrap;fontFamily=Times New Roman;fontSize=16;rounded=1;glass=0;shadow=0;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="40" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="11" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=14;" edge="1" parent="1" source="8" target="10">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="Image&lt;br style=&quot;font-size: 16px;&quot;&gt;Segmentation" style="html=1;dashed=0;whitespace=wrap;fontFamily=Times New Roman;fontSize=16;glass=0;rounded=1;shadow=0;sketch=0;gradientColor=#ffffff;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="245" y="40" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=14;" edge="1" parent="1" source="10" target="16">
+                    <mxGeometry relative="1" as="geometry">
+                        <mxPoint x="480" y="140" as="targetPoint"/>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="10" value="Gesture&lt;br style=&quot;font-size: 16px&quot;&gt;&amp;nbsp;Matching" style="html=1;dashed=0;whitespace=wrap;fontFamily=Times New Roman;fontSize=16;glass=0;rounded=1;shadow=0;sketch=0;fontColor=#333333;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="40" width="100" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=14;" edge="1" parent="1" source="16" target="19">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="31" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="16" target="30">
+                    <mxGeometry relative="1" as="geometry">
+                        <Array as="points">
+                            <mxPoint x="470" y="220"/>
+                            <mxPoint x="295" y="220"/>
+                        </Array>
+                    </mxGeometry>
+                </mxCell>
+                <mxCell id="16" value="HCI&lt;br style=&quot;font-size: 16px;&quot;&gt;Control" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;fontFamily=Times New Roman;fontSize=16;rounded=0;shadow=0;sketch=0;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="420" y="150" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=14;" edge="1" parent="1" source="19" target="23">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="19" value="Trajactory&lt;br style=&quot;font-size: 16px;&quot;&gt;Detection" style="html=1;dashed=0;whitespace=wrap;fontFamily=Times New Roman;fontSize=16;glass=0;rounded=1;shadow=0;sketch=0;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+                    <mxGeometry x="252.5" y="155" width="85" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="20" value="H-Cb-Cr&lt;br style=&quot;font-size: 14px;&quot;&gt;&lt;span style=&quot;text-align: left; font-size: 14px;&quot;&gt;Morphologic&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontFamily=Times New Roman;fontSize=14;fontStyle=2" vertex="1" parent="1">
+                    <mxGeometry x="150" y="45" width="90" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="23" value="Keyboard&lt;br style=&quot;font-size: 16px;&quot;&gt;Control" style="html=1;dashed=0;whitespace=wrap;fontFamily=Times New Roman;fontSize=16;glass=0;rounded=1;shadow=0;sketch=0;fontColor=#333333;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="155" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="25" value="watershed()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontFamily=Times New Roman;fontSize=14;fontStyle=2" vertex="1" parent="1">
+                    <mxGeometry x="340" y="45" width="80" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="26" value="matchTemplate()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontFamily=Times New Roman;fontSize=14;fontStyle=2" vertex="1" parent="1">
+                    <mxGeometry x="359" y="110" width="110" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="36" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=14;" edge="1" parent="1" source="30" target="33">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="37" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontFamily=Times New Roman;fontSize=14;" edge="1" parent="1" source="30" target="32">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="30" value="Mouse&lt;br style=&quot;font-size: 16px;&quot;&gt;Mode" style="shape=rhombus;html=1;dashed=0;whitespace=wrap;perimeter=rhombusPerimeter;fontFamily=Times New Roman;fontSize=16;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+                    <mxGeometry x="245" y="240" width="100" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="38" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontFamily=Times New Roman;fontSize=14;" edge="1" parent="1" source="32" target="34">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="32" value="Touch Pad" style="html=1;dashed=0;whitespace=wrap;fontFamily=Times New Roman;fontSize=16;glass=0;rounded=1;shadow=0;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="70" y="245" width="80" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="35" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontFamily=Times New Roman;fontSize=14;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="33" target="34">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="33" value="Red Dot" style="html=1;dashed=0;whitespace=wrap;fontFamily=Times New Roman;fontSize=16;glass=0;rounded=1;shadow=0;sketch=0;fillColor=#dae8fc;strokeColor=#6c8ebf;" vertex="1" parent="1">
+                    <mxGeometry x="440" y="245" width="60" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="34" value="Mouse&lt;br style=&quot;font-size: 16px;&quot;&gt;Control" style="html=1;dashed=0;whitespace=wrap;fontFamily=Times New Roman;fontSize=16;glass=0;rounded=1;shadow=0;sketch=0;fontColor=#333333;fillColor=none;" vertex="1" parent="1">
+                    <mxGeometry x="261.88" y="320" width="66.25" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="51" value="kybd_event()" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=14;fontFamily=Times New Roman;fontStyle=2" vertex="1" parent="1">
+                    <mxGeometry x="155" y="155" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="52" value="&lt;i style=&quot;font-size: 14px;&quot;&gt;mouse_event()&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="1">
+                    <mxGeometry x="140" y="320" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="53" value="&lt;i style=&quot;font-size: 14px;&quot;&gt;mouse_event()&lt;/i&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=14;fontFamily=Times New Roman;" vertex="1" parent="1">
+                    <mxGeometry x="350" y="320" width="100" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="54" value="HCI Control" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=14;fontFamily=Times New Roman;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="70" y="135" width="90" height="20" as="geometry"/>
+                </mxCell>
+                <mxCell id="55" value="Gesture&amp;nbsp; Recognition" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fontSize=14;fontFamily=Times New Roman;fontStyle=1" vertex="1" parent="1">
+                    <mxGeometry x="60" y="20" width="140" height="20" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>

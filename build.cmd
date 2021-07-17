@@ -1,0 +1,1 @@
+g++.exe -g -std=c++11 src/main.cpp -o main.exe -I include -I "%OpenCV_DIR%/include" -I "%OpenCV_DIR%/include/opencv2" -L "%OpenCV_DIR%/x64/mingw/lib" -l opencv_core420 -l opencv_imgproc420 -l opencv_imgcodecs420 -l opencv_video420 -l opencv_ml420 -l opencv_highgui420 -l opencv_objdetect420 -l opencv_flann420 -l opencv_imgcodecs420 -l opencv_photo420 -l opencv_videoio420 

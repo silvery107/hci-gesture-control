@@ -2,10 +2,38 @@
 In this work, I designed a gesture recognition Human Computer Interaction (HCI) system based on OpenCV.
 I used the watershed algorithm to realize skin color image segmentation, applied the template matching algorithm to realize gesture recognition, and implemented the gesture interaction function of mouse and keyboard shortcuts based on Win32 API.
 
+## Quick Start
+
+1. Check out this repository and download the source code
+
+    `git clone git@github.com:silvery107/hci-gesture-control.git`
+
+2. Make sure your environment meets this requirements
+
+    ```
+    CMake >= 3.0.0
+    OpenCV >= 4.2.0
+    ```
+
+
+3. Build excutable
+
+    ```shell
+    > mkdir build && cd build
+    > cmake .. -DCMAKE_BUILD_TYPE=[Debug | Coverage | Release]
+    > make
+    > ./hci-gesture-control
+    ```
+4. If you want to build in windows, check `build.cmd`
+
 ## Demo
 [Check this demo video here!](videos/demo.mp4)
 
 <img src=images/demo.png width=400/>
+
+## Algorithm
+
+<img src="images/algorithm1.svg" width=400>
 
 ## Reference
 
