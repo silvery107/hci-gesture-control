@@ -11,3 +11,7 @@ find_package( OpenCV REQUIRED )
 include_directories( ${OpenCV_INCLUDE_DIRS} )
 add_executable(${PROJECT} ${SOURCES})
 target_link_libraries( ${PROJECT} ${OpenCV_LIBS} )
+add_custom_command(TARGET ${PROJECT} 
+                   POST_BUILD 
+                   COMMAND ${CMAKE_COMMAND} -E copy $<TARGET_FILE:${PROJECT}> ${CMAKE_SOURCE_DIR}
+)
