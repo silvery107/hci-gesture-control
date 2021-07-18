@@ -16,15 +16,16 @@ I used the watershed algorithm to realize skin color image segmentation, applied
     ```
 
 
-3. Build excutable
+3. Build executable
 
     ```shell
     > mkdir build && cd build
     > cmake .. -DCMAKE_BUILD_TYPE=[Debug | Coverage | Release]
     > make
-    > ./hci-gesture-control
+    > cd .. && ./hci-gesture-control
     ```
-4. If you want to build in windows, check `build.cmd`
+
+4. If you want to build in windows commandline directly, check `build.cmd`
 
 ## Demo
 [Check this demo video here!](videos/demo.mp4)
