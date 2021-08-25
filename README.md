@@ -56,4 +56,4 @@ I used the watershed algorithm to realize skin color image segmentation, applied
 
 [2] 沙亮. 基于无标记全手势视觉的人机交互技术[D]. 清华大学, 2010.
 
-[3] 黄俊.基于视觉的手势识别交互系统设计[D]. 中央民族大学, 2019.
+[3] 黄俊. 基于视觉的手势识别交互系统设计[D]. 中央民族大学, 2019.
