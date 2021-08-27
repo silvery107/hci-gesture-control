@@ -45,8 +45,8 @@ I used the watershed algorithm to realize skin color image segmentation, applied
 
 
 <p float="left">
-  <img src=images/gui_demo.png height=200/>
-  <img src=images/demo.png height=200/>
+  <img src=images/gui_demo.png height=300/>
+  <img src=images/demo.png height=300/>
 </p>
 
 ## Algorithm
