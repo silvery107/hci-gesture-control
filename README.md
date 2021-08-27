@@ -43,12 +43,12 @@ I used the watershed algorithm to realize skin color image segmentation, applied
 
 [Check this demo video here!](videos/demo.mp4)
 
-<img src=images/gui_demo.png width=260/>
+<img src=images/gui_demo.png width=220/>
 <img src=images/demo.png width=400/>
 
 ## Algorithm
 
-<img src="images/algorithm1.svg" width=550>
+<img src="images/algorithm1.svg" width=500>
 
 ## Reference
 
